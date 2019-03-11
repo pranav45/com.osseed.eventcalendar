@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <extension key="com.osseed.eventcalendar" type="module">
   <file>eventcalendar</file>
-  <name>Event Calendar</name>
+  <name>Event Calendar - Joinery "manyCalendars" fork</name>
   <description>Show CiviCRM Events in Calendar</description>
   <license>AGPL-3.0</license>
   <maintainer>
@@ -9,8 +9,8 @@
     <email>hello@osseed.com</email>
   </maintainer>
   <urls>
-	<url desc="Main Extension Page">https://github.com/osseed/com.osseed.eventcalendar</url>
-	<url desc="Documentation">https://raw.github.com/osseed/com.osseed.eventcalendar/master/README.txt</url>
+	<url desc="Main Extension Page">https://github.com/twomice/com.osseed.eventcalendar</url>
+	<url desc="Documentation">https://raw.github.com/twomice/com.osseed.eventcalendar/master/README.txt</url>
 </urls>
   <releaseDate>2018-08-01</releaseDate>
   <version>2.3</version>
@@ -19,7 +19,7 @@
     <ver>4.7</ver>
     <ver>5.15</ver>
   </compatibility>
-  <comments>Show CiviCRM Event in Calendar</comments>
+  <comments>Show CiviCRM Event in Calendar. This code is forked by Joinery from the original by OSSeed (https://github.com/osseed/com.osseed.eventcalendar) to support multiple calendars, until https://github.com/osseed/com.osseed.eventcalendar/issues/48 is resolved.</comments>
   <civix>
     <namespace>CRM/EventCalendar</namespace>
   </civix>
